@@ -1,0 +1,10 @@
+CC26xx-Magnet-Sensor 
+================================================================================
+The CC26xx-magnet-sensor reads the data from reed relay and display the 
+"Door Open" or "Door Close" as per the reed relay sensor reading over UART.
+
+Compilation for Sensortag :
+make clean
+make savetarget TARGET=srf06-cc26xx
+make TARGET=srf06-cc26xx BOARD=sensortag/cc2650
+===============================================================================
